@@ -1,0 +1,99 @@
+@charset "utf-8";
+#holder {
+  height: 100vh;
+  width: 100vw;
+}
+.loginHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  padding: 0 20%;
+}
+.loginHeader .logo img {
+  height: 60px;
+}
+.loginHeader .loginBtn button {
+  width: 120px;
+  margin-left: 20px;
+}
+.loginMain {
+  background: rgba(255, 255, 255, 0.8);
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  border-radius: 0.3em;
+  position: fixed;
+  width: 480px;
+  padding: 30px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.loginMain .title {
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 10px;
+  font-weight: 600;
+  color: #0099ff;
+}
+.loginMain .loginForm {
+  width: 80%;
+  margin: 0 auto;
+}
+.loginMain .item {
+  height: 40px;
+  line-height: 40px;
+  padding-left: 40px;
+  background: #fff;
+  position: relative;
+  margin-top: 20px;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  border-radius: 0.3em;
+}
+.loginMain .item label {
+  display: block;
+}
+.loginMain .item .iconfont {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  top: 0;
+  left: 0;
+  color: #999;
+  text-align: center;
+}
+.loginMain .item input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  border: 0;
+  background: none;
+}
+.loginMain .rememberPwd {
+  margin-top: 15px;
+  color: #999;
+  font-size: 13px;
+}
+.loginMain .rememberPwd input,
+.loginMain .rememberPwd span {
+  float: left;
+}
+.loginMain .rememberPwd input {
+  margin-top: 3px;
+  margin-right: 5px;
+}
+.loginMain .loginBtn {
+  margin: 20px 0 20px;
+}
+.loginMain .loginBtn .btn {
+  display: block;
+  width: 100%;
+}
